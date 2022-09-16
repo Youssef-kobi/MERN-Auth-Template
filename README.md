@@ -1,12 +1,12 @@
 <h1 align="center">
   <br>
-  <a href="http://www.amitmerchant.com/electron-markdownify"><img src="https://raw.githubusercontent.com/amitmerchant1990/electron-markdownify/master/app/img/markdownify.png" alt="Markdownify" width="200"></a>
+  <a href="https://github.com/Youssef-kobi/MERN-Template"><img src="client/public.Logo.png" alt="MERN" width="200"></a>
   <br>
-  Markdownify
+  MERN Template
   <br>
 </h1>
 
-<h4 align="center">A minimal Markdown Editor desktop app built on top of <a href="http://electron.atom.io" target="_blank">Electron</a>.</h4>
+<h4 align="center">An updated MERN/Auth <a href="https://github.com/Youssef-kobi/MERN-Template" target="_blank">Template</a>.</h4>
 
 <p align="center">
   <a href="https://badge.fury.io/js/electron-markdownify">
