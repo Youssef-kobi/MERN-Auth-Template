@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a href="https://github.com/Youssef-kobi/MERN-Template"><img src="client/public.Logo.png" alt="MERN" width="200"></a>
+  <a href="https://github.com/Youssef-kobi/MERN-Template"><img src="https://raw.githubusercontent.com/Youssef-kobi/MERN-Template/main/client/public/Logo.png" alt="MERN" width="200"></a>
   <br>
   MERN Template
   <br>
@@ -9,17 +9,11 @@
 <h4 align="center">An updated MERN/Auth <a href="https://github.com/Youssef-kobi/MERN-Template" target="_blank">Template</a>.</h4>
 
 <p align="center">
- <a href="https://badge.fury.io/js/npm"><img src="https://badge.fury.io/js/npm.svg" alt="npm version" height="18"></a>
-  <a href="https://gitter.im/amitmerchant1990/electron-markdownify"><img src="https://badges.gitter.im/amitmerchant1990/electron-markdownify.svg"></a>
-  <a href="https://saythanks.io/to/bullredeyes@gmail.com">
-      <img src="https://img.shields.io/badge/SayThanks.io-%E2%98%BC-1EAEDB.svg">
-  </a>
-  <a href="https://www.paypal.me/AmitMerchant">
-    <img src="https://img.shields.io/badge/$-donate-ff69b4.svg?maxAge=2592000&amp;style=flat">
-  </a>
+ <a href="https://img.shields.io/npm/v/npm?style=plastic"><img src="https://img.shields.io/npm/v/npm?style=plastic" alt="npm version" height="18"></a>
 </p>
 
 <p align="center">
+	<a href="#introduction">Introduction</a> •
   <a href="#key-features">Key Features</a> •
   <a href="#how-to-use">How To Use</a> •
   <a href="#download">Download</a> •
@@ -28,27 +22,44 @@
   <a href="#license">License</a>
 </p>
 
-![screenshot](https://raw.githubusercontent.com/amitmerchant1990/electron-markdownify/master/app/img/markdownify.gif)
+<!-- ![screenshot](https://raw.githubusercontent.com/amitmerchant1990/electron-markdownify/master/app/img/markdownify.gif) -->
+
+## Introduction
+
+This project is a MERN template for building fullstack JavaScript applications. The technology stack is as follows:
+
+- **MongoDB** as a NoSQL database
+- **React** for the front-end, bootstrapped with "Create React App".
+- **Express.js** for the server
+  - Serves the React app
+  - Provides the JSON API for the React app using http
+- **Node.js** for the back-end
 
 ## Key Features
 
-- LivePreview - Make changes, See changes
-  - Instantly see what your Markdown documents look like in HTML as you create them.
-- Sync Scrolling
-  - While you type, LivePreview will automatically scroll to the current location you're editing.
-- GitHub Flavored Markdown
-- Syntax highlighting
-- [KaTeX](https://khan.github.io/KaTeX/) Support
+<img align="right"  width="220" height="400" src="https://user-images.githubusercontent.com/52678976/190696479-54fcb58b-ece0-49d4-b469-b37c0c16b45f.PNG" alt="Files Structure"/>
+
+- MERN structured folders
+- TailwindCSS setup
+- ES7 Airbnb eslint / prettier
+- Axios for API fetching
+- React-toastify for Toast notification
+- React-hook-form for form management
+- Yup (frontend & backend)for Forms validation
+- @hookform/resolvers to use yup with react-hook-form
+- React-router-dom V6, route restrictions: PrivateOutlet & PublicOutlet
+- Responsiveness 70%
+- Pages: Login, Registration, ForgetPassword, NotFound, Dashboard(empty)
+- Authentication using JWT with verification middleman in the serve routes
+- React Context for LoggedInUser data and login/logout functions
+
+## TO-DO
+
 - Dark/Light mode
-- Toolbar for basic Markdown formatting
-- Supports multiple cursors
-- Save the Markdown preview as PDF
-- Emoji support in preview :tada:
-- App will keep alive in tray for quick usage
-- Full screen mode
-  - Write distraction free.
-- Cross platform
-  - Windows, macOS and Linux ready.
+- Responsiveness 30%
+- Mailing service for user account verification & reset password
+- Profile Page ?
+- Google / Facebook / Twitter Authentication
 
 ## How To Use
 
