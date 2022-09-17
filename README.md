@@ -60,10 +60,13 @@ This project is a MERN template for building fullstack JavaScript applications. 
 - Google / Facebook / Twitter Authentication
 
 ## How To Use
+
 ### Use Template
 
 To use this template click `Use this template` above. see <a href="https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template#creating-a-repository-from-a-template" >How to create a new repository from a template<a/>,
+
 ### Fork repository
+
 You might fork the repository by clicking the fork button. see <a href="https://docs.github.com/en/get-started/quickstart/fork-a-repo#use-someone-elses-project-as-a-starting-point-for-your-own-idea" >Use someone else's project as a starting point for your own idea.<a/>
 
 You'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
@@ -83,9 +86,10 @@ $ npm start
 ```
 
 > **Note**
-> Don't forget to change the `author` and `name` in your client(frontend) `package.json` ;) 
+> Don't forget to change the `author` and `name` in your client(frontend) `package.json` ;)
 
-----
+---
+
 ## License
 
 MIT
