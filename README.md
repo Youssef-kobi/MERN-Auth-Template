@@ -2,7 +2,7 @@
   <br>
   <a href="https://github.com/Youssef-kobi/MERN-Template"><img src="https://raw.githubusercontent.com/Youssef-kobi/MERN-Template/main/client/public/Logo.png" alt="MERN" width="200"></a>
   <br>
-  MERN Template
+  MERN Authentication's Template
   <br>
 </h1>
 
